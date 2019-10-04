@@ -1,7 +1,7 @@
 def repeat(message, number):
     print()
     for  i in range(number):
-        print(str(i+1)+":", message)
+        print(message)
         #growing number before message
     print()
 
@@ -19,6 +19,7 @@ while finish == False:
     except ValueError:
         print("Not an Intiger!")
 
-        m = input("Want to try again (yes/no)?")
-        if (m != "yes"):
-            finish = True
+        #print("Want to try again (yes/no)?")
+    m = input("Want to try again (yes/no)?")
+    if (m != "yes"):
+        finish = True
