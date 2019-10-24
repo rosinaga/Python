@@ -7,13 +7,13 @@ print()
 
 print("Print First Element")
 print(list1[0])
-print(0)
-
-print("Print Last Element")
-print(list[-1])
 print()
 
-Print("Print Elements with  Numbers")
+print("Print Last Element")
+print(list1[-1])
+print()
+
+print("Print Elements with  Numbers")
 
 counter = 1
 for elem in list1:
