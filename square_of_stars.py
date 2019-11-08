@@ -1,5 +1,9 @@
-sidelength = int(input("enter side length:"))
-
 def starsquare(n):
-    for i in range(sidelength)
-    
+    length = ""
+    for j in range(n):
+        length = length + "\n"
+        for i in range(n):
+            length = length + "* "
+    return length
+
+print(starsquare(20))
